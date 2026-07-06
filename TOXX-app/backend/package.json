@@ -1,0 +1,15 @@
+{
+  "name": "toxx-backend",
+  "version": "0.1.0",
+  "description": "Backend for TOXX Android assistant — calls the Claude API to summarize notifications and draft replies.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "dotenv": "^16.4.5"
+  }
+}

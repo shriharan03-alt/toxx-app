@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOXX"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your AI phone assistant"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnNotificationAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Enable Notification Access"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGrantCallPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Grant Call Permissions"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Start TOXX Background Service"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnToggleWakeWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Start Listening for &quot;Wake up TOXX&quot;"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/inputPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number to test call"
+        android:inputType="phone"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTestCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Outgoing Call" />
+
+</LinearLayout>

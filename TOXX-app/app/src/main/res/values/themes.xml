@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TOXX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0B0F1A</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#00E5FF</item>
+    </style>
+</resources>
