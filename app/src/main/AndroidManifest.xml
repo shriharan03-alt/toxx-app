@@ -31,7 +31,7 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        
         android:label="TOXX"
         android:theme="@style/Theme.TOXX">
 
